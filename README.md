@@ -10,10 +10,26 @@ This repository contains a collection of distinct short projects in self-contain
 - pandas
 - scikit-learn
 
-To install all required packages at once:
+
+## Installation
+
+### 1. Clone or download the repository
+
+```git clone https://github.com/cfafonso/machine-learning-short-projects.git```
+
+### 2. Install the required packages
 
 ```pip install -r requirements.txt```
 
+### 3. Usage
+
+Each machine learning short project operates independently of one another. Therefore, the following Jupyter notebooks can be run in any order.
+```
+critical_temperature_prediction_1.ipynb
+critical_temperature_prediction_2.ipynb
+hand_posture_classifiers.ipynb
+mountain_car_q_learning.ipynb
+```
 
 ## Specification of the Projects
 
@@ -42,7 +58,7 @@ The purpose of this project is to implement an agent based on the Q-learning alg
 
 The state of the Mountain Car environment is represented by two continuous variables, the position and velocity of the car. The goal of the agent is to learn how to control the car's acceleration to climb the hill and reach the goal as quickly as possible while using the least amount of energy. The agent receives a negative reward for every time step it takes to reach the goal, so the goal is to minimize the number of time steps required to reach the goal.
 
-- Algorithms: Q-Learning (Reinforcement Learning)
+- Algorithms: Q-learning (Reinforcement Learning)
 
 
 ## License
